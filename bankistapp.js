@@ -73,7 +73,7 @@ let userloginpin;
 let currentaccount;
 loginbutton.addEventListener("click", function (e) {
   e.preventDefault();
-  userloginid = document.querySelector(".username").value;
+  userloginid = document.querySelector(".username").value.toLowerCase();
   userloginpin = Number(document.querySelector(".pin").value);
   currentaccount = accounts.find(function (acc) {
     return acc.username === userloginid;
@@ -131,6 +131,7 @@ closeaccountbutton.addEventListener("click", function () {
     });
     accounts.splice(indexofcloseaccount, 1);
     displayui.style.opacity = 0;
+    displayname.textContent = "Login to get started!";
   } else {
     alert("Plzz check your Credentials");
   }
@@ -154,3 +155,4 @@ loanreqbutton.addEventListener("click", function () {
     }, 5000);
   }
 });
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bankist.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <h3 class="login_header">Login to get started</h3>
+      <img src="login.png" class="login_icon" />
+      <form action="" class="login_container">
+        <input type="text" placeholder="User" class="login_input username" />
+        <input type="password" placeholder="Pin" class="login_input pin" />
+        <img src="right-arrow.png" class="arrow_img" />
+      </form>
+    </div>
+    <div class="demo opacity">
+      <div class="contaainer_2">
+        <div class="mid_container">
+          <div class="left_content">
+            <h2 class="Display_balance_title">Current balance</h2>
+          </div>
+          <h2 class="right_content baldisplay"></h2>
+        </div>
+      </div>
+      <div class="container_3">
+        <div class="second_mid_container">
+          <div class="display_movements"></div>
+          <div class="other">
+            <div class="money_transfer">
+              <div class="transfer_container">
+                <h2 class="transfer_heading">Transfer money</h2>
+                <div class="fieldsection">
+                  <input type="text" class="fieldsec_inputfields receiver" />
+                  <input
+                    type="number"
+                    class="fieldsec_inputfields transfer_Amount"
+                  />
+
+                  <div class="transfer_btn">
+                    <img
+                      src="right-arrow.png"
+                      class="arrow_img Money_transfer_btn"
+                    />
+                  </div>
+                </div>
+                <div class="field_heading_container">
+                  <div class="Field_heading">
+                    <p>Transfer To</p>
+                  </div>
+                  <div class="Field_heading">
+                    <p class="Amount_field">Amount</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="request_loan">
+              <div class="transfer_container">
+                <h2 class="transfer_heading">Request Loan</h2>
+                <div class="fieldsection">
+                  <input
+                    type="text"
+                    type="text"
+                    class="fieldsec_inputfields loanfield_color Loanrequestfield"
+                  />
+                  <div class="transfer_btn">
+                    <img src="right-arrow.png" class="arrow_img Loanbtn" />
+                  </div>
+                </div>
+                <div class="field_heading_container">
+                  <div class="Field_heading">
+                    <p>Amount</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="close_account">
+              <div class="transfer_container">
+                <h2 class="transfer_heading">Close Account</h2>
+                <div class="fieldsection">
+                  <input
+                    type="text"
+                    type="text"
+                    class="fieldsec_inputfields field_color cloaseaccount"
+                  />
+                  <input
+                    type="text"
+                    type="text"
+                    class="fieldsec_inputfields field_color closepin"
+                  />
+                  <div class="transfer_btn">
+                    <img src="right-arrow.png" class="arrow_img closeacc_btn" />
+                  </div>
+                </div>
+                <div class="field_heading_container">
+                  <div class="Field_heading">
+                    <p>Close Account</p>
+                  </div>
+                  <div class="Field_heading">
+                    <p class="Amount_field">Pin</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bankistapp.js"></script>
+  </body>
+</html>

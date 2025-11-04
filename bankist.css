@@ -1,0 +1,182 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.main_container {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: #f3f3f3;
+}
+.login_header {
+  font-size: 25px;
+  color: black;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.login_icon {
+  height: 50px;
+  width: 50px;
+  padding-top: 20px;
+}
+.login_container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+.login_input {
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+  width: 100px;
+}
+.arrow_img {
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.opacity {
+  opacity: 0;
+  transition: 0.6s ease-out;
+}
+
+.contaainer_2 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.mid_container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_3 {
+  height: 520px;
+  display: flex;
+  justify-content: center;
+}
+.second_mid_container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.display_movements {
+  height: 100%;
+  width: 58%;
+  overflow-y: auto;
+}
+.movements_rows {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+.row_container {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Deposit {
+  height: 30px;
+  width: 150px;
+  background-color: green;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.Withdraw {
+  height: 30px;
+  width: 150px;
+  background-color: red;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.other {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.money_transfer {
+  height: 30%;
+  width: 100%;
+  background: linear-gradient(to right, #f6dc72, #e7c505);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.request_loan {
+  height: 30%;
+  width: 100%;
+  background: linear-gradient(to right, #64f252, #056e1c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close_account {
+  height: 30%;
+  width: 100%;
+  background: linear-gradient(to right, #ec5786, #800814);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transfer_container {
+  height: 60%;
+  width: 90%;
+}
+.fieldsection {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fieldsec_inputfields {
+  height: 30px;
+  width: 35%;
+  border: none;
+  background-color: rgb(241, 241, 118);
+  border-radius: 5px;
+}
+.transfer_btn {
+  height: 30px;
+  width: 15%;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.field_heading_container {
+  display: flex;
+  justify-content: space-between;
+}
+.Amount_field {
+  margin-right: 135px;
+}
+.field_color {
+  background-color: #ef7d88;
+}
+.loanfield_color {
+  background-color: #abf6a0;
+}
